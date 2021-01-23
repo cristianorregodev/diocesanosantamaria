@@ -443,14 +443,18 @@ p.copy {
 }
 
 
+/*Plantel Docente*/
+
+
 /*Galeria Imagenes*/
 
 .multimedia-img {
     width: 100%;
-    height: 180px;
+    height: 160px;
 }
 
 .multimedia-img img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
