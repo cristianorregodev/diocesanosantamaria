@@ -1,7 +1,15 @@
 .holder {
-    padding-bottom: 10px;
     margin: 25px 0;
+}
+
+.linea-b {
+    padding-bottom: 10px;
     border-bottom: 1px solid;
+}
+
+.linea-t {
+    padding-top: 10px;
+    border-top: 1px solid;
 }
 
 .holder a {
