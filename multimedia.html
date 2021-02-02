@@ -8,18 +8,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
     <link href="https://cdn.glitch.com/b0a58c65-5f18-4382-b6e7-97aad16ec3da%2FEscudo.png?v=1590709632088" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="css/all.css" />
-    <link rel="stylesheet" type="text/css" href="css/lightbox.css" />
-    <link rel="stylesheet" type="text/css" href="css/jPages.css" />
-
-    <title>Diocesano Santa María | Multimedia</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/lightbox.css" />
+    <title>Diocesano Santa María | Símbolos</title>
 </head>
 
 <body>
     <!-- Navegacion -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-        <a class="navbar-brand d-flex" href="index.html"><img src="img/Escudo.png" width="40" height="40" alt="">
+        <a class="navbar-brand d-flex" href="../index.html"><img src="../img/Escudo.png" width="40" height="40" alt="">
             <div class="inst-name">
                 <p class="m-auto pt-1">Colegio Técnico Comercial</p>
                 <p class="m-auto">Diocesano Santa María</p>
@@ -32,27 +30,28 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="navbar-nav mr-auto ml-auto text-center">
-                <a class="nav-link" href="index.html">Inicio</a>
-                <a class="nav-link" href="aula-virtual.html">Aula Virtual</a>
+                <a class="nav-link" href="../index.html">Inicio</a>
+                <a class="nav-link" href="../aula-virtual.html">Aula Virtual</a>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Institucional</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="institucional/historia.html">Historia</a>
-                        <a class="dropdown-item" href="institucional/horizonte-institucional.html">Horizonte Institucional</a>
-                        <a class="dropdown-item" href="institucional/simbolos.html">Simbolos</a>
-                        <a class="dropdown-item" href="institucional/plantel-academico.html">Administrativos y Docentes</a>
+                        <a class="dropdown-item" href="historia.html">Historia</a>
+                        <a class="dropdown-item" href="horizonte-institucional.html">Horizonte Institucional</a>
+                        <a class="dropdown-item" href="simbolos.html">Simbolos</a>
+                        <a class="dropdown-item" href="plantel-academico.html">Administrativos y Docentes</a>
                     </div>
                 </li>
+                <a class="nav-link" href="../comunicados.html">Comunicados</a>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recursos</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="docs/Manual_de_Convivencia_CTCDSM_2021.pdf" download="Manual_de_Convivencia_CTCDSM_2021.pdf">Manual de Convivencia</a>
-                        <a class="dropdown-item" href="docs/Resolucion_Rectoral_2021.pdf" download="Resolucion_Rectoral_2021.pdf">Resolución Rectoral</a>
-                        <a class="dropdown-item" href="cronograma.html">Cronograma de Actividades</a>
-                        <a class="dropdown-item" href="excusas.php">Formato de Excusa</a>
+                        <a class="dropdown-item" href="../docs/Manual_de_Convivencia_CTCDSM_2021.pdf" download="Manual_de_Convivencia_CTCDSM_2021.pdf">Manual de Convivencia</a>
+                        <a class="dropdown-item" href="../docs/Resolucion_Rectoral_2021.pdf" download="Resolucion_Rectoral_2021.pdf">Resolución Rectoral</a>
+                        <a class="dropdown-item" href="../cronograma.html">Cronograma de Actividades</a>
+                        <a class="dropdown-item" href="docs/Formato_excusas.pdf" download="Formato_excusas.pdf">Formato de Excusa</a>
                     </div>
                 </li>
-                <a class="nav-link" href="multimedia.html">Multimedia</a>
+                <a class="nav-link" href="../multimedia.html">Multimedia</a>
             </div>
             <div class="d-flex flex-row justify-content-center">
                 <a class="nav-link" href="https://www.facebook.com/coldisama" target="_blank"><i class="fab fa-facebook-square"></i></a>
@@ -65,113 +64,56 @@
 
     </nav>
 
+    <main>
+        <!-- Portada -->
+        <section class="portada-institucional d-flex justify-content-end align-items-start flex-column" style="background-image:url(../img/portada-simbolos.JPG)">
+            <div class="container text-left mb-5">
+                <h1>Símbolos Institucionales</h1>
+                <p>Nuestra identidad y símbolos que nos representan.</p>
+                <a class="btn btn-primary" href="#simbolos">Ver Símbolos</a>
 
-
-    <main class="container" role="main">
-        <section id="imagenes" class="my-5">
-            <h1 class="text-center">Galería de imágenes</h1>
-            <div class="holder linea-b text-center"></div>
-            <div class="row" id="galeriaImagenes">
-                <a href="img/1.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/1.jpg" alt="Computador">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/2.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/2.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/3.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/3.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/4.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/4.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/1.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/1.jpg" alt="Computador">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/2.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/2.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/3.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/3.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/4.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/4.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/1.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/1.jpg" alt="Computador">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/2.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/2.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/3.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/3.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/4.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/4.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/1.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/1.jpg" alt="Computador">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/2.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/2.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/3.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/3.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/4.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/4.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/1.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/1.jpg" alt="Computador">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/2.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/2.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/3.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/3.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/4.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/4.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/1.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/1.jpg" alt="Computador">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/2.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/2.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/3.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/3.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
-                <a href="img/4.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
-                    <img src="img/4.jpg" alt="">
-                    <p><small>Descripción de imagen</small></p>
-                </a>
             </div>
-            <div class="holder linea-t text-center"></div>
+        </section>
+
+        <!-- Inicia Sección Simbolos-->
+        <section>
+            <div id="simbolos" class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="text-center">
+                        <h2>Escudo</h2>
+                        <div class="s-brand text-center">
+                            <img src="../img/Escudo.png" alt="">
+                        </div>
+                        <h5 class="pt-3">Descripción y significado del escudo</h5>
+                        <p class="p-2">Símbolo de protección de nuestra institución, el cual está formado por tres franjas, la primera de color rojo significando la vida, posee una cruz de madera que representa el compromiso, en el sacrificio de la cruz de una estudiante
+                            catequista; la segunda franja de color amarillo está inspirada en el escudo de la diócesis que asume las tres coronas, dejadas como presente por el rey Felipe II a nuestra ciudad; la tercera franja de color azul, representa
+                            la justicia y tiene en la parte inferior una lámpara que evoca la luz de Cristo, la cual debe iluminar junto con la presencia de un estudiante o egresado de la institución; finalmente el escudo está bordeado por una cinta de
+                            color blanco, simbolizando la armonía y la paz, en cuatro puntas que significan los cuatro valores esenciales de nuestra institución: liderazgo, respeto, paz y fe.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="text-center">
+                        <h2>Bandera</h2>
+                        <div class="s-flag text-center">
+                            <img src="../img/Bandera.jpg" alt="">
+                        </div>
+                        <p class="p-2 pt-4">Formada por dos franjas horizontales de igual tamaño, la superior azul celeste, la inferior blanca, colores Marianos, por ser la Santísima Virgen María, Patrona del Colegio. Lleva el Escudo sobrepuesto en el centro.
+                        </p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="text-center">
+                        <h2>Himno a nuestra señora de la paz</h2>
+                        <p>"PATRONA DE LA INSTITUCIÓN"</p>
+                        <div class="s-himno">
+                            <img src="../docs/Himno_Nuestra_Señora_De_La_Paz.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+
     <!-- Footer -->
     <footer class="site-footer bg-primary">
         <div class="container">
@@ -179,7 +121,7 @@
                 <div class="col-12 col-sm-6 col-md-4 informacion-footer mt-3">
                     <h3 class="text-left tittle-footer mb-3">Sobre <span>nosotros</span></h3>
                     <p class="text-justify links-footer">El Colegio Técnico Comercial Diocesano Santa María fue fundado el 13 de septiembre de 1967 por el Excelentísimo Monseñor José Gabriel Calderón Contreras, Primer Obispo de la Diócesis de Cartago, bajo el nombre “Colegio Nuestra Señora
-                        de la Paz” y con el ánimo de formar... <a href="institucional/historia.html">Leer más</a> </p>
+                        de la Paz” y con el ánimo de formar... <a href="historia.html">Leer más</a> </p>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 redes-footer mt-3">
                     <h3 class="text-left tittle-footer mb-3">Redes <span>sociales</span></h3>
@@ -211,20 +153,79 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="../js/jquery-3.5.1.min.js"></script>
     <script src="https://unpkg.com/jquery-aniview/dist/jquery.aniview.js"></script>
-    <script src="js/lightbox.js"></script>
-    <script src="js/jPages.js"></script>
-    <script>
-        $("div.holder").jPages({
-            containerID: "galeriaImagenes",
-            perPage: 8,
-            startPage: 1,
-            midRange: 4,
-            previous: "Anterior",
-            next: "Sigueinte"
-        });
-    </script>
+    <script src="../js/lightbox.js"></script>
+</body>
+
+</html> <img src="img/2.jpg" alt="">
+<p><small>Descripción de imagen</small></p>
+</a>
+<a href="img/3.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
+    <img src="img/3.jpg" alt="">
+    <p><small>Descripción de imagen</small></p>
+</a>
+<a href="img/4.jpg" data-lightbox="img" class="col-lg-3 col-md-4 col-sm-6 multimedia-img my-3">
+    <img src="img/4.jpg" alt="">
+    <p><small>Descripción de imagen</small></p>
+</a>
+</div>
+<div class="holder linea-t text-center"></div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="site-footer bg-primary">
+    <div class="container">
+        <div class="row justify-content-left">
+            <div class="col-12 col-sm-6 col-md-4 informacion-footer mt-3">
+                <h3 class="text-left tittle-footer mb-3">Sobre <span>nosotros</span></h3>
+                <p class="text-justify links-footer">El Colegio Técnico Comercial Diocesano Santa María fue fundado el 13 de septiembre de 1967 por el Excelentísimo Monseñor José Gabriel Calderón Contreras, Primer Obispo de la Diócesis de Cartago, bajo el nombre “Colegio Nuestra Señora de
+                    la Paz” y con el ánimo de formar... <a href="institucional/historia.html">Leer más</a> </p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 redes-footer mt-3">
+                <h3 class="text-left tittle-footer mb-3">Redes <span>sociales</span></h3>
+                <div class="links-footer">
+                    <a class="nav-link pt-0 pl-0" href="https://www.facebook.com/coldisama" target="_blank"><i class="fab fa-facebook-square"></i> Siguenos en Facebook</a>
+                    <a class="nav-link pt-0 pl-0" href="https://www.youtube.com/c/ColegioTécnicoComercialDiocesanoSantaMaría" target="_blank"><i class="fab fa-youtube"></i> Subscribete en YouTube</a>
+                    <a class="nav-link pt-0 pl-0" href="https://www.instagram.com/diocesanosantamaria/" target="_blank"><i class="fab fa-instagram"></i> Siguenos en Instagram</a>
+                    <a class="nav-link pt-0 pl-0" href="#"><i class="fab fa-whatsapp"></i> Escribe a nuestro WhatsApp</a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 contacto-footer mt-3">
+                <h3 class="text-left tittle-footer mb-3">Información <span>de contacto</span></h3>
+                <ul class="m-0 p-0">
+                    <li><span>Dirección:</span> Calle 20A N° 2 - 100</li>
+                    <li><span>Teléfono fijo:</span> 214 30 98</li>
+                    <li><span>Celular:</span> 310 638 2543</li>
+                    <li><span>WhatsApp:</span> 310 638 2543</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p class="copy mt-3">Colegio técnico comercial diocesano santa maría &copy;</p>
+</footer>
+<!--Inico JavaScript-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+</script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="https://unpkg.com/jquery-aniview/dist/jquery.aniview.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/jPages.js"></script>
+<script>
+    $("div.holder").jPages({
+        containerID: "galeriaImagenes",
+        perPage: 8,
+        startPage: 1,
+        midRange: 4,
+        previous: "Anterior",
+        next: "Sigueinte"
+    });
+</script>
 
 </body>
 
