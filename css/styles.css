@@ -1,7 +1,7 @@
 /**ESTILOS GLOBALES**/
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 h1,
@@ -9,10 +9,9 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Fjalla One', sans-serif;
+    font-family: "Fjalla One", sans-serif;
     text-transform: uppercase;
 }
-
 
 /**PORTADA HEADER**/
 
@@ -40,15 +39,14 @@ h5 {
     font-size: 1.4rem;
 }
 
-
 /**NAVEGACIÓN HEADER**/
 
 .nav-link {
-    color: #ffffff!important;
+    color: #ffffff !important;
 }
 
 .nav-link:hover {
-    color: #000000!important;
+    color: #000000 !important;
 }
 
 .inst-name p {
@@ -68,11 +66,10 @@ h5 {
     color: #ffffff;
 }
 
-
 /**TARJETAS NIV EDU**/
 
 .card {
-    border: 0!important;
+    border: 0 !important;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.6);
 }
 
@@ -95,9 +92,8 @@ h5 {
 .card-text {
     min-height: 11rem;
     text-align: justify;
-    font-size: .95em;
+    font-size: 0.95em;
 }
-
 
 /**ENLACES VIRTUALES**/
 
@@ -109,49 +105,48 @@ h5 {
 
 .btn-seve {
     border-radius: 10px;
-    background-color: #145C91;
+    background-color: #145c91;
 }
 
 .btn-seve a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .btn-seve:hover {
     transform: scale(1.1);
-    transition: all .5s ease;
+    transition: all 0.5s ease;
 }
 
 .btn-gmail {
     border-radius: 10px;
-    background-color: #DB4A39;
+    background-color: #db4a39;
 }
 
 .btn-gmail a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .btn-gmail:hover {
     transform: scale(1.1);
-    transition: all .5s ease;
+    transition: all 0.5s ease;
 }
 
 .btn-manual {
     border-radius: 10px;
-    background-color: #FFBF00;
+    background-color: #ffbf00;
 }
 
 .btn-manual a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .btn-manual:hover {
     transform: scale(1.1);
-    transition: all .5s ease;
+    transition: all 0.5s ease;
 }
-
 
 /**MAPA DEL SITIO**/
 
@@ -168,7 +163,6 @@ h5 {
     height: 100%;
 }
 
-
 /**FOOTER**/
 
 .tittle-footer {
@@ -180,16 +174,16 @@ h5 {
 }
 
 .informacion-footer p {
-    font-size: .95rem;
+    font-size: 0.95rem;
     color: #ffffff;
 }
 
 .links-footer a {
-    color: #ffffff!important;
+    color: #ffffff !important;
 }
 
 .links-footer a:hover {
-    color: #000000!important;
+    color: #000000 !important;
 }
 
 .contacto-footer ul {
@@ -216,25 +210,22 @@ p.copy {
     margin: 0;
 }
 
-
 /**OTRAS PÁGINAS**/
-
 
 /**CONTACTO**/
 
 .contacto h3::after {
-    content: '';
+    content: "";
     display: block;
     width: 60%;
     height: 2px;
-    background-color: #145C91;
+    background-color: #145c91;
     margin: 10px auto;
 }
 
 .fondo-contacto {
     background-color: rgba(242, 246, 248, 1);
 }
-
 
 /**TARJETAS SEVE**/
 
@@ -253,7 +244,7 @@ p.copy {
     position: relative;
     height: 350px;
     overflow: hidden;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     border-radius: 6px 6px 0 0;
 }
@@ -276,17 +267,17 @@ p.copy {
     text-align: center;
 }
 
-.tarjeta-seve:hover>.capa-1 {
+.tarjeta-seve:hover > .capa-1 {
     opacity: 1;
     visibility: visible;
 }
 
-.tarjeta-seve:hover>.capa-1 h5 {
+.tarjeta-seve:hover > .capa-1 h5 {
     margin-top: 120px;
     margin-bottom: 25px;
 }
 
-.tarjeta-seve:hover>img {
+.tarjeta-seve:hover > img {
     transform: scale(1.3);
 }
 
@@ -318,12 +309,12 @@ p.copy {
     text-align: center;
 }
 
-.tarjeta-seve:hover>.capa-2 {
+.tarjeta-seve:hover > .capa-2 {
     opacity: 1;
     visibility: visible;
 }
 
-.tarjeta-seve:hover>.capa-2 h5 {
+.tarjeta-seve:hover > .capa-2 h5 {
     margin: 120px 0 25px 0;
 }
 
@@ -345,14 +336,13 @@ p.copy {
 
 .inferior-tarjeta {
     width: 100%;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
     border-radius: 0 0 15px 15px;
 }
 
 .inferior-tarjeta img {
     width: 100%;
 }
-
 
 /**CRONOGRAMA**/
 
@@ -364,7 +354,7 @@ p.copy {
 .card-act {
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
     border-radius: 6px;
 }
 
@@ -386,7 +376,6 @@ p.copy {
     border-top-left-radius: 6px;
     color: #ffffff;
 }
-
 
 /**PORTADA MISION Y VISION**/
 
@@ -442,9 +431,7 @@ p.copy {
     width: 100vw;
 }
 
-
 /*Plantel Docente*/
-
 
 /*Galeria Imagenes*/
 
@@ -457,4 +444,20 @@ p.copy {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+/*Renovacion Cupos*/
+.masthead {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100vh;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
+        url("../img/bg-masthead.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
